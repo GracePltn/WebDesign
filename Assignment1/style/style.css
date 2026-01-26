@@ -1,13 +1,21 @@
 body{
-  background-color:powderblue;
+  background-color:rgb(81, 19, 7);
 } 
 
 h1 {
   padding: 35px;
   text-align: center;
-  background-color: snow;
+  background-color: rgb(253, 204, 70);
 }
 
-h2, h3 {
-  text-align:center;
+h2 {
+  padding: 10px;
+  text-align: center;
+  background-color:rgb(81, 19, 7)
+}
+
+h3 {
+  padding: 5px;
+  text-align: center;
+  background-color:azure
 }
