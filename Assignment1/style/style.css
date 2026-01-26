@@ -5,6 +5,7 @@ body{
 h1 {
   padding: 35px;
   text-align: center;
+  font-family: 'playfair display', serif;
   background-color: rgb(95, 70, 70);
   color: rgb(232, 183, 50); 
 }
@@ -12,6 +13,7 @@ h1 {
 h2 {
   padding: 10px;
   text-align: center;
+  font-family: 'playfair display', serif;
   background-color: rgb(95, 70, 70);
   color: rgb(232, 183, 50); 
 }
@@ -19,10 +21,12 @@ h2 {
 h3 {
   padding: 5px;
   text-align: center;
+  font-family: 'playfair display', serif;
   background-color: rgb(95, 70, 70);
   color: rgb(232, 183, 50); 
 }
 
 p {
   color: white; 
+  font-family: 'playfair display', serif;
 }
