@@ -5,20 +5,24 @@ body{
 h1 {
   padding: 35px;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(95, 70, 70);
   color: rgb(232, 183, 50); 
 }
 
 h2 {
   padding: 10px;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(95, 70, 70);
   color: rgb(232, 183, 50); 
 }
 
 h3 {
   padding: 5px;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(95, 70, 70);
   color: rgb(232, 183, 50); 
+}
+
+p {
+  color: white; 
 }
