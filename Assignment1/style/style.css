@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(1, 2, 43);
+  background-color:rgb(40, 0, 0);
   border: 1;
 } 
 
@@ -8,7 +8,7 @@ h1 {
   font-size: 45px;
   text-align: center;
   font-family: 'playfair display', serif;
-  background-color: rgb(103, 0, 0);
+  background-color: rgba(103, 0, 0, 0.581);
   margin-left: 300px;
   margin-right: 300px;
   color: rgb(215, 148, 14); 
@@ -18,7 +18,7 @@ h2 {
   padding: 10px;
   text-align: center;
   font-family: 'playfair display', serif;
-  background-color: rgb(97, 1, 1);
+  background-color: rgb(103, 0, 0, 0.581);
   margin-left: 300px;
   margin-right: 300px;
   color: rgb(215, 148, 14); 
@@ -28,7 +28,7 @@ h3 {
   padding: 5px;
   text-align: center;
   font-family: 'playfair display', serif;
-  background-color: rgb(81, 0, 0);
+  background-color: rgb(103, 0, 0, 0.581);
   margin-left: 300px;
   margin-right: 300px;
   color: rgb(215, 148, 14); 
