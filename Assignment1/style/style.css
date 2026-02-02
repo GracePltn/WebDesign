@@ -24,12 +24,6 @@ h2 {
   color: rgb(162, 108, 0); 
 }
 
-line-border {
-  border: 5px; 
-  border-top: 3px;
-  margin: 20px 0; 
-}
-
 h3 {
   padding: 5px;
   text-align: center;
