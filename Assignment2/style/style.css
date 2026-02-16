@@ -3,23 +3,29 @@ body {
   border: 1;
 }
 
+nav {
+    text-align: center;
+    color: white;
+}
+
 img {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 20%;
+    border-radius: 8px;
 }
 header {
-    border: 1px solid black;
-    padding: 35px;
+    border: 1px solid rgb(149, 140, 140);
+    padding: 15px;
     text-align: center;
-    background-color: snow;
+    background-color: rgb(33, 15, 15);
 }
 
 h1 {
   padding: 35px;
   font-size: 60px;
   text-align: center; 
-  font-family:'Courier New', Courier, monospace;
+  font-family:'Times New Roman', Times, serif;
   background-color: rgba(103, 0 , 0 , 0.581);
   margin-left: 300px; 
   margin-right: 300px;
@@ -29,7 +35,7 @@ h1 {
 h2 {
   padding: 10px;
   text-align: center;
-  font-family:'Courier New', Courier, monospace;
+  font-family:'Times New Roman', Times, serif;
   background-color: rgb(103, 0, 0, 0.581);
   margin-left: 300px;
   margin-right: 300px;
@@ -39,7 +45,7 @@ h2 {
 h3 {
   padding: 5px;
   text-align: center;
-  font-family:'Courier New', Courier, monospace;
+  font-family:'Times New Roman', Times, serif;
   background-color: rgb(103, 0, 0, 0.581);
   margin-left: 300px;
   margin-right: 300px;
@@ -48,7 +54,7 @@ h3 {
 
 p {
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
   margin-left: 350px;
   margin-right: 350px;
   text-indent: 2em;
