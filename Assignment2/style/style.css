@@ -4,7 +4,9 @@ body {
 }
 
 img {
-    align-items: center;
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 header {
     border: 1px solid black;
