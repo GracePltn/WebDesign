@@ -20,6 +20,11 @@ img {
   height: auto;
 }
 
+video {
+    width: 200px;
+    height: auto;
+}
+
 header {
     border: 1px solid #958C8C ;
     padding: 15px;
