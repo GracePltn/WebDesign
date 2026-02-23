@@ -148,3 +148,19 @@ th {
     font-weight: bold;
     color: #5a3e36; 
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.gallery img {
+    width: calc(33.333% - 10px);
+    height: auto;
+}
