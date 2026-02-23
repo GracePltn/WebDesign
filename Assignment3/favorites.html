@@ -6,16 +6,37 @@
         <link rel="stylesheet" href="style/style.css">
     </head>
     <body>
+
+        <h4>My Favorite Movies</h4>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Title</th>
+                <th>Director</th>
+                <th>Genre</th>
+            </tr>
+            </thead>
+            <tbody>
+                <!--Table contents go here-->
+                <tr>
+                    <td>Knives Out</td>
+                    <td>Rian Johnson</td>
+                    <td>Mystery</td>
+                </tr>
+            </tbody>
+        </table>
+
         <form>
 
             <fieldset>
                 <legend>Favorite Movie Survey</legend>
 
                 <label>Your Name:</label>
-                <input type="text" name="name" placeholder="e.g. Grace Poulton">
+                <input type="text" name="name" placeholder="e.g. First Name Last Name">
 
                 <label>Email Address:</label>
-                <input type="email" name="email" placeholder="e.g. grace@gmail.com">
+                <input type="email" name="email" placeholder="e.g. name@email.com">
             
 
             <label>Submit Your Favorite Movie:</label>
@@ -23,20 +44,20 @@
 
             <label>Favorite Genre:</label> <!--Dropdown Label-->
             <select name="genre">
-                <option value="classic">Classic</option>
+                <option value="horror">Horror</option>
                 <option value="fantasy">Fantasy</option>
                 <option value="sci-fi">Sci-Fi</option>
                 <option value="romance">Romance</option>
             </select>
 
             <p>Preferred Format:</p>
-            <label><input type="radio" name="format" value="print">Print</label>
-            <label><input type="radio" name="format" value="ebook">eBook</label>
-            <label><input type="radio" name="format" value="audiobook">Audiobook</label>
+            <label><input type="radio" name="format" value="theatre">Theatre</label>
+            <label><input type="radio" name="format" value="streaming">Streaming</label>
+            <label><input type="radio" name="format" value="dvds">DVDs</label>
 
             <label>
                 <input type="checkbox" name="subscribe" value="yes">
-                Subscribe to our monthly movie club newsletter
+                Subscribe to our montly Movie Club newsletter!
             </label>
 
             <button type="submit">Submit</button>
