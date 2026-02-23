@@ -162,3 +162,29 @@ th {
     width: 30%;
     height: auto;
 }
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 14px;
+        padding: 10px;
+    li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    header, .chapter, footer {
+        padding: 10px;
+    }
+    }
+}
