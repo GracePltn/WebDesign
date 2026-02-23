@@ -1,3 +1,8 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
+
+
 body {
   background-color: #280000;
   border: 1;
@@ -117,7 +122,7 @@ button:hover {
     background-color: #7a564f;
 }
 
-h4 {
+h2 {
     text-align: center;
 }
 
