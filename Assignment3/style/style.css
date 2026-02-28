@@ -1,8 +1,9 @@
-.jim-nightshade-regular {
-  font-family: "Jim Nightshade", cursive;
+.goblin-one-regular {
+  font-family: "Goblin One", serif;
   font-weight: 400;
   font-style: normal;
 }
+
 
 body {
     font-family:"Jim Nightsade", cursive;
@@ -13,6 +14,19 @@ body {
 nav {
     color: white;
     display:inline-block;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.navbar li a {
+    display: block;
+    padding: 10px 20px;
 }
 
 img {
@@ -169,6 +183,7 @@ th {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     max-width: 800px;
     margin: 0 auto;
