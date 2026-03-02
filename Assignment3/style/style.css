@@ -198,6 +198,20 @@ th {
     color: #5a3e36; 
 }
 
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px
+
+}
+
+.gallery {
+    display: grid;
+    place-items: center;
+}
+
 #gallery {
     display: flex;
     flex-wrap: wrap;
