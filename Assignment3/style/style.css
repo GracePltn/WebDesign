@@ -14,6 +14,7 @@ body {
 nav {
     color: white;
     display:inline-block;
+    justify-content: center;
 }
 
 nav ul {
@@ -43,12 +44,17 @@ img {
 video {
     width: 800px;
     height: auto;
-    align-items: center;
+    align-content: center;
 }
 
 blockquote {
     color: white;
     text-align: center
+}
+
+time {
+    color: white;
+    text-align: center;
 }
 
 cite {
