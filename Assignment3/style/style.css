@@ -11,6 +11,13 @@ body {
   border: 1;
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
 nav {
     color: white;
     display:inline-block;
@@ -191,7 +198,7 @@ th {
     color: #5a3e36; 
 }
 
-gallery {
+#gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -199,9 +206,11 @@ gallery {
     gap: 10px;
     max-width: 100px;
     margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-gallery img {
+#gallery img {
     width: 15%;
     height: auto;
 }
