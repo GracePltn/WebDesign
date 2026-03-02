@@ -28,11 +28,11 @@ nav ul li a {
     display: block;
     padding: 10px 15px;
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
 }
 
 nav ul li a:hover {
-    background-color: #f2f2f2;
+    background-color: #bd0000;
 }
 
 img {
@@ -185,7 +185,7 @@ th {
     color: #5a3e36; 
 }
 
-#gallery {
+gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -195,7 +195,7 @@ th {
     margin: 0 auto;
 }
 
-#gallery img {
+gallery img {
     width: 15%;
     height: auto;
 }
