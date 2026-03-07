@@ -49,7 +49,7 @@ img {
 }
 
 video {
-    width: 800px;
+    width: 500px;
     height: auto;
     align-content: center;
 }
@@ -237,6 +237,9 @@ th {
     height: auto;
 }
 
+.image-border {
+    border: 5px solid #ffffff;
+}
 
 
 
