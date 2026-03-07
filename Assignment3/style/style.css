@@ -1,8 +1,9 @@
-.goblin-one-regular {
-  font-family: "Goblin One", serif;
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
   font-weight: 400;
   font-style: normal;
 }
+
 
 
 body {
@@ -88,7 +89,7 @@ h1 {
   padding: 35px;
   font-size: 60px;
   text-align: center; 
-  font-family:'Times New Roman', Times, serif;
+  font-family:'New Rocker', system-ui;
   background-color: #670000;
   margin-left: 300px; 
   margin-right: 300px;
@@ -98,7 +99,7 @@ h1 {
 h2 {
   padding: 10px;
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'New Rocker', system-ui;
   background-color:  #670000;
   margin-left: 300px;
   margin-right: 300px;
@@ -108,9 +109,7 @@ h2 {
 h3 {
   padding: 5px;
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
-  background-color:  #670000;
-  margin-left: 300px;
+  font-family:'New Rocker', system-ui;
   margin-right: 300px;
   color: #D7940E;
 }
