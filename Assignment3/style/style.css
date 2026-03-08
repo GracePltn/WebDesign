@@ -7,6 +7,12 @@ body {
   border: 1;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar {
     overflow: hidden;
     background-color: rgb(34, 4, 4);
