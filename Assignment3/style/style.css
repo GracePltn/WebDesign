@@ -238,7 +238,7 @@ th {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     justify-items: center;
 }
@@ -249,7 +249,7 @@ th {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    max-width: 100px;
+    max-width: 600px;
     margin: 0 auto;
     margin-left: 100px;
     margin-right: 100px;
