@@ -1,13 +1,8 @@
-.new-rocker-regular {
-  font-family: "New Rocker", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
 
-
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=New+Rocker&display=swap');
 
 body {
-    font-family: "Goblin One";
+    font-family: '';
   background-color: #280000;
   border: 1;
 }
