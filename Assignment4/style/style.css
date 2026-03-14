@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(48, 79, 51);
+    background-color: rgb(163, 163, 163);
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #444444;
+    background-color: #be771f;
     position: fixed;
     top: 0;
     width: 100%;
