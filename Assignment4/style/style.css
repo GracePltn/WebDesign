@@ -2,6 +2,28 @@ body {
     background-color: blanchedalmond;
 }
 
+.navbar {
+    overflow: hidden;
+    background-color: #8fafa7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #54524c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a hover {
+    background: #fcf9ff;
+    color: rgb(0, 0, 0);
+}
+
 .blog-preview {
     display: flex;
     flex-direction: row;
