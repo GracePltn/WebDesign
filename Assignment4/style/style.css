@@ -1,10 +1,10 @@
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(48, 79, 51);
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #8fafa7;
+    background-color: #444444;
     position: fixed;
     top: 0;
     width: 100%;
@@ -13,7 +13,7 @@ body {
 .navbar a {
     float: left;
     display: block;
-    color: #54524c;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
