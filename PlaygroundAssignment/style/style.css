@@ -42,10 +42,6 @@ p {
   text-indent: 2em;
 }
 
-body {
-    background-color: rgb(163, 163, 163);
-}
-
 .navbar {
     overflow: hidden;
     background-color: #943D52;
@@ -57,15 +53,15 @@ body {
 .navbar a {
     float: left;
     display: block;
-    color: #ffffff;
+    color: #DFBBCA;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    background: #fcf9ff;
-    color: rgb(0, 0, 0);
+    background: #DFBBCA;
+    color: #A30E28;
 }
 nav {
     color: white;
