@@ -1,5 +1,5 @@
 body {
-  background-color: #480903;
+  background-color: #310130;
   border: 1;
 }
 
@@ -8,7 +8,7 @@ h1 {
   font-size: 60px;
   text-align: center; 
   font-family:'Courier New', Courier, monospace;
-  background-color:  #937A24;
+  background-color:  #ec1a1a;
   margin-left: 300px; 
   margin-right: 300px;
   color: #480903;
@@ -17,8 +17,8 @@ h1 {
 h2 {
   padding: 10px;
   text-align: center;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  background-color: #CE793A;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:aliceblue;
   margin-left: 300px;
   margin-right: 300px;
   color: #480903;
@@ -44,7 +44,7 @@ p {
 
 .navbar {
     overflow: hidden;
-    background-color: #20521e;
+    background-color: #701c7a;
     position: fixed;
     top: 0;
     width: 100%;
@@ -53,15 +53,15 @@ p {
 .navbar a {
     float: left;
     display: block;
-    color: #DFBBCA;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    background: #CE793A;
-    color: #937A24;
+    background: #820000;
+    color: #ff0000;
 }
 nav {
     color: white;
@@ -104,7 +104,7 @@ nav {
     height: 80px;
     width: 700px;
     border-radius: 10px;
-    background: #CE793A; 
+    background: #000000; 
     box-shadow: #ffffff; 
 }
 
@@ -127,7 +127,7 @@ nav {
     user-select: none;
     cursor: pointer; 
     margin: 0 30px;
-    border: 2px solid #480903;
+    border: 2px solid #ffffff;
     overflow: hidden;
 }
 
