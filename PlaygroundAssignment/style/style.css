@@ -88,8 +88,27 @@ nav ul li a:hover {
     background-color: #000000;
 }
 
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 
-nav--list {
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    height: 80px;
+    width: 700px;
+    border-radius: 10px;
+    background: #CE793A; 
+    box-shadow: #ffffff; 
+}
+
+.nav--list {
     width: 100%; 
     list-style: none;
     display: flex;
@@ -110,4 +129,17 @@ nav--list {
     margin: 0 30px;
     border: 2px solid #480903;
     overflow: hidden;
+}
+
+.item a {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #B64B12;
+    z-index: 10;
+    text-decoration: none;
+    transition: color 200ms ease;
+}
+
+.item:hover a {
+    color: #DFBBCA; 
 }
