@@ -143,3 +143,17 @@ nav {
 .item:hover a {
     color: #DFBBCA; 
 }
+
+.item:before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    transform: skew(30deg);
+    background: #937A24; 
+    transition: width 400ms ease; 
+}
+
+.item:hover:before {
+    width: 120%;
+}
