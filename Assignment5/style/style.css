@@ -8,14 +8,8 @@ body {
     padding: 20px;
 }
 
-.featured-section {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto auto;
-    gap: 10px;
-    align-items: start;
-}
 
+/*Nav Section*/
 .navbar {
     overflow: hidden;
     background-color: #be771f;
@@ -66,13 +60,24 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #000000;
 }
+/*Nav Section*/
+
+
+
+/*Featured Section*/
+.featured-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    align-items: start;
+}
 
 .blog-preview {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
-
     max-width: 80%;
     margin: 80px auto;
     padding: 20px 40px;
@@ -100,7 +105,7 @@ nav ul li a:hover {
 .date {
     font-family:'Times New Roman', Times, serif;
     font-size: 0.8rem;
-    color: #666;
+    color: #0b0a0a;
     margin: 0;
 }
 
@@ -175,12 +180,6 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
-
-
-
-
-
-/*Featured-section*/
 .featured-section .blog-preview {
     max-width: 100% !important; 
     margin: 0px 0 !important;
@@ -229,17 +228,17 @@ nav ul li a:hover {
     font-size: 0.8rem;
     margin-top: 5px;
 }
+/*Featured Section*/
 
 
 
 
 
 
-
-
+/* Gallery Section */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 10px;
     margin: auto;
     padding: 10px;
@@ -266,8 +265,12 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
 }
+/*Gallery Section End*/
 
 
+
+
+/*Footer Section*/
 .footer {
     display: flex;
     justify-content: space-between;
@@ -292,6 +295,18 @@ nav ul li a:hover {
     width: 22px;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+a:focus, button:focus, input:focus {
+    outline: 2px solid #b1741f;
+    outline-offset: 2px;
+}
+
+
+@media (max-width: 600px) {
+    .card-selection{
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 1024px) {
