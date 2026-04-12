@@ -2,7 +2,7 @@ body {
     background-color: rgb(163, 163, 163);
 }
 
-.page-wrapper {
+page-wrapper {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
