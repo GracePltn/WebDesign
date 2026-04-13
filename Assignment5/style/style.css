@@ -156,12 +156,7 @@ nav ul li a:hover {
 }
 
 
-card-selection {
-    grid-column: 1 / 3;
-    grid-row: 2;
-    display: flex;
-    gap: 10px;
-}
+
 
 .card {
     display: flex;
