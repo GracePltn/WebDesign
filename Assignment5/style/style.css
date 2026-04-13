@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(237, 237, 237);
     padding-top: 60px;
 }
 
@@ -13,7 +13,7 @@ page-wrapper {
 /*Nav Section*/
 .navbar {
     overflow: hidden;
-    background-color: #be771f;
+    background-color: #4e56a1;
     position: fixed;
     top: 0;
     width: 100%;
@@ -276,7 +276,7 @@ card-selection {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: #b1741f;
+    background-color: #ad1c1c;
     padding: 30px 100px;
     font-family:'Times New Roman', Times, serif;
 }
