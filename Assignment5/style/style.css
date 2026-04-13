@@ -166,13 +166,20 @@ card-selection {
 .card {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1 1 300px;
     gap: 10px;
     padding: 20px;
     background-color:rgb(173, 171, 201);
     max-width: 200px;
     width: 100%;
     margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card img {
