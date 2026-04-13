@@ -145,7 +145,7 @@ nav ul li a:hover {
 .hero {
     grid-column: 2;
     grid-row: 1;
-    max-height: 300px;
+    max-height: 200px;
     overflow: hidden;
 }
 
