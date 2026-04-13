@@ -11,7 +11,7 @@ page-wrapper {
 
 
 /*Nav Section*/
-.navbar {
+navbar {
     overflow: hidden;
     background-color: #be771f;
     position: fixed;
@@ -19,7 +19,7 @@ page-wrapper {
     width: 100%;
 }
 
-.navbar a {
+navbar a {
     float: left;
     display: block;
     color: #ffffff;
@@ -28,7 +28,7 @@ page-wrapper {
     text-decoration: none;
 }
 
-.navbar a:hover {
+navbar a:hover {
     background: #fcf9ff;
     color: rgb(0, 0, 0);
 }
