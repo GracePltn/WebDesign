@@ -1,0 +1,2 @@
+1. I am doing well. I did not have time this week to do all of the design changes I wanted. I want to draw out some pictures to put in place of the images, but did not find the time to finish that for this assignment. 
+2. I think I'm all good! I'll definitely send an email if I run into anything I need help with. Thank you! 
