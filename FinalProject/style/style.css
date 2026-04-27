@@ -100,20 +100,18 @@ h1 {
   font-size: 60px;
   text-align: center; 
   font-family: "New Rocker", system-ui;
-  background-color: #2b1010;
   margin-left: 300px; 
   margin-right: 300px;
-  color: #b39797;
+  color: #ff9e0e;
 }
 
 h2 {
   padding: 10px;
   text-align: center;
   font-family: "New Rocker", system-ui;
-  background-color:  #2b1010;
   margin-left: 400px;
   margin-right: 400px;
-  color: #b39797;
+  color: #daa647;
 }
 
 h3 {
@@ -130,7 +128,7 @@ p {
     padding: 3px;
     text-align: center;
     font-family: "New Rocker", system-ui;
-    color:  #bdbdbd
+    color:  #ffffff
 }
 
 
