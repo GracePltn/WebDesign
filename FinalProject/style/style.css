@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=New+Rocker&display=swap');
 
 body {
-    background-color: rgb(22, 33, 39);
     padding-top: 60px;
     font-family: "New Rocker", system-ui;
   background-color: #280000;
@@ -11,7 +10,7 @@ body {
 .navbar-brand {
     position: absolute;
     top: 8px;
-    background-color: rgb(107, 26, 52);
+    background-color: rgb(105, 2, 34);
     transition: transform 0.5s ease;
 }
 
@@ -101,31 +100,46 @@ h1 {
   font-size: 60px;
   text-align: center; 
   font-family: "New Rocker", system-ui;
-  background-color: #670000;
+  background-color: #2b1010;
   margin-left: 300px; 
   margin-right: 300px;
-  color: #D7940E;
+  color: #b39797;
 }
 
 h2 {
   padding: 10px;
   text-align: center;
   font-family: "New Rocker", system-ui;
-  background-color:  #670000;
+  background-color:  #2b1010;
   margin-left: 400px;
   margin-right: 400px;
-  color: #A26C00;
+  color: #b39797;
 }
 
 h3 {
   padding: 5px;
   text-align: center;
   font-family: "New Rocker", system-ui;
-  background-color:  #670000;
+  background-color:  #000000;
   margin-right: 400px;
   margin-left: 400px;
-  color: #D7940E;
+  color: #ffffff;
 }
+
+
+video {
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-player {
+    box-shadow: inset 0px 0px 103px 0px rgba(0,0,0,0.75);
+}
+
+
 
 /*Featured Section*/
 .featured-section {
