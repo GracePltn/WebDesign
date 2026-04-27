@@ -3,6 +3,20 @@ body {
     padding-top: 60px;
 }
 
+.navbar-brand {
+    position: absolute;
+    top: 8px;
+    background-color: #4c0000;
+    transition: transform 0.5s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.15);
+}
+
+.bg-dark {
+    background-color: #ad1c1c;
+}
 page-wrapper {
     max-width: 800px;
     margin: 0 auto;
@@ -313,6 +327,74 @@ a:focus, button:focus, input:focus {
     outline-offset: 2px;
 }
 
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease;
+
+    z-index: 1000;
+
+    width: 420px;
+    max-width: 92%;
+    padding: 58px 62px;
+    border-radius: 20px;
+    background:rgb(173, 171, 201);
+    backdrop-filter: blur(10px);
+    color: aqua; 
+    font-size: 1.05rem;
+    line-height: 1.5;
+    box-shadow:
+    0 0 25px rgba(200, 180, 255, 0.35),
+    0 0 60px rgba(174, 184, 210, 0.35),
+    0 8px 20px rgba(6, 0, 23, 0.35);
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch;
+    gap: 18px;
+    text-align: center;
+}
+
+#popup.open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+#openPopup {
+    animation: pulse 3s ease-in-out infinite;
+    margin-bottom: 40px;
+}
+
+main h3,
+#openPopup {
+    display: block; 
+    margin: 20px auto;
+    text-align: center;
+}
+
+button {
+    border-radius: 20px;
+    background: #ad1c1c;
+    width: 100px;
+    height: 30px;
+    border: none;
+    padding: 10px, 15px;
+    color:rgb(0, 0, 0);
+    display: block;
+    margin: 0 auto;
+}
 
 @media (max-width: 600px) {
     .card-selection{
