@@ -3,14 +3,14 @@
 body {
     padding-top: 60px;
     font-family: "New Rocker", system-ui;
-  background-color: #280000;
+  background-color: #370909;
   border: 1;
 }
 
 .navbar-brand {
     position: absolute;
     top: 8px;
-    background-color: rgb(105, 2, 34);
+    background-color: rgb(105, 2, 2);
     transition: transform 0.5s ease;
 }
 
@@ -124,6 +124,13 @@ h3 {
   margin-right: 400px;
   margin-left: 400px;
   color: #ffffff;
+}
+
+p {
+    padding: 3px;
+    text-align: center;
+    font-family: "New Rocker", system-ui;
+    color:  #bdbdbd
 }
 
 
