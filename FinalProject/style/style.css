@@ -33,6 +33,14 @@ page-wrapper {
     color: rgb(0, 0, 0);
 }
 
+.navbar-brand {
+    transition: transform 0.5s ease;
+}
+
+.navbar-brand:hover {
+    transform:scale(1.15);
+}
+
 .main {
     margin-top: 30px;
 }
