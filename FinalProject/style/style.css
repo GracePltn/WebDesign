@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
 
 body {
-    padding-top: 60px;
+    padding-top: 30px;
     font-family: "IM Fell DW Pica SC", serif;
-  background-color: #370909;
+  background-color: #4a4066;
   border: 1;
 }
 
 .navbar-brand {
     position: absolute;
     top: 8px;
-    background-color: rgb(105, 2, 2);
+    background-color: #1a2342;
     transition: transform 0.5s ease;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .bg-dark {
-    background-color: #ffffff;
+    background-color: #c2a368;
 }
 page-wrapper {
     max-width: 800px;
@@ -31,7 +31,7 @@ page-wrapper {
 /*Nav Section*/
 .navbar {
     overflow: hidden;
-    background-color: rgb(107, 26, 52);
+    background-color: #1a2342;
     position: fixed;
     top: 0;
     width: 100%;
@@ -108,7 +108,7 @@ h1 {
 }
 
 h2 {
-  padding: 10px;
+  padding: 2px;
   text-align: center;
   font-family: "IM Fell DW Pica SC", serif;
   font-weight: 400;
@@ -124,10 +124,10 @@ h3 {
   font-family: "IM Fell DW Pica SC", serif;
   font-weight: 400;
   font-style: normal;
-  background-color:  #000000;
+  background-color: #e4d3b4;
   margin-right: 400px;
   margin-left: 400px;
-  color: #ffffff;
+  color: #1a2342;
 }
 
 p {
@@ -136,7 +136,7 @@ p {
     font-family: "IM Fell DW Pica SC", serif;
   font-weight: 400;
   font-style: normal;
-    color:  #ffffff
+    color:  #e4d3b4;
 }
 
 
@@ -216,7 +216,7 @@ video {
   font-weight: 400;
   font-style: normal;
     font-size: 0.9rem;
-    color: #4c0000;
+    color: #e4d3b4;
     line-height: 1.6;
     margin: 0;
 }
@@ -345,7 +345,7 @@ video {
 }
 
 .item {
-    background-color: #d6d6d6;
+    background-color: #1a2342;
     border-radius: 8px;
     aspect-ratio: 1 / 1;
     display: flex;
@@ -375,7 +375,7 @@ video {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: #ad1c1c;
+    background-color: #818db8;
     padding: 30px 100px;
     font-family: "IM Fell DW Pica SC", serif;
   font-weight: 400;
@@ -423,7 +423,7 @@ a:focus, button:focus, input:focus {
     border-radius: 20px;
     background:rgb(12, 21, 25);
     backdrop-filter: blur(10px);
-    color: rgb(207, 157, 123); 
+    color: #e4d3b4; 
     font-size: 1.05rem;
     line-height: 1.5;
     box-shadow:
@@ -463,12 +463,12 @@ main h3,
 
 button {
     border-radius: 20px;
-    background: rgb(114, 75, 57);
+    background: #1a2342;
     width: 100px;
     height: 30px;
     border: none;
     padding: 10px, 15px;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     display: block;
     margin: 0 auto;
 }
