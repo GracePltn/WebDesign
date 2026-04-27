@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(22, 33, 39);
     padding-top: 60px;
 }
 
 .navbar-brand {
     position: absolute;
     top: 8px;
-    background-color: #4c0000;
+    background-color: rgb(107, 26, 52);
     transition: transform 0.5s ease;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .bg-dark {
-    background-color: #ad1c1c;
+    background-color: #ffffff;
 }
 page-wrapper {
     max-width: 800px;
@@ -27,7 +27,7 @@ page-wrapper {
 /*Nav Section*/
 .navbar {
     overflow: hidden;
-    background-color: #4e56a1;
+    background-color: rgb(107, 26, 52);
     position: fixed;
     top: 0;
     width: 100%;
@@ -344,9 +344,9 @@ a:focus, button:focus, input:focus {
     max-width: 92%;
     padding: 58px 62px;
     border-radius: 20px;
-    background:rgb(173, 171, 201);
+    background:rgb(12, 21, 25);
     backdrop-filter: blur(10px);
-    color: aqua; 
+    color: rgb(207, 157, 123); 
     font-size: 1.05rem;
     line-height: 1.5;
     box-shadow:
@@ -386,7 +386,7 @@ main h3,
 
 button {
     border-radius: 20px;
-    background: #ad1c1c;
+    background: rgb(114, 75, 57);
     width: 100px;
     height: 30px;
     border: none;
