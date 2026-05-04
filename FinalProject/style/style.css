@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
 
 body {
-    padding-top: 15px;
+    padding-top: 25px;
     font-family: "IM Fell DW Pica SC", serif;
   background-color: #303350;
   border: 1;
@@ -141,7 +141,7 @@ p {
 
 
 video {
-    width: 500px;
+    width: 300px;
     height: auto;
     display: flex;
     justify-content: center;
