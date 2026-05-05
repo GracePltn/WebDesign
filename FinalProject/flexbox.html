@@ -5,17 +5,37 @@
         <title>Flexbox Layout</title>
         <link rel="stylesheet" href="style/style.css">
     </head>
-    
-    <body>
-        <div class="navbar">
-            <a href="index.html">Home</a>
-        <a href="flexbox.html">List</a>
-        <a href="grid.html">Grid</a>
-        <a href="blog-post.html">BlogPost</a>
-    </div>
 
 
-    
+
+
+
+<!--Navbar-->
+    <nav class="navbar navabar-expand-lg sticky-top bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MENU</a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedcontent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lf-0 align-items-end">
+                        <li class="nav-item">
+                            <a class="nav=link active" aria-current="page" href="flexbox.html">Flexbox</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav=link active" aria-current="page" href="grid.html">Grid</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav=link active" aria-current="page" href="blog-post.html">Blog Post</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!--Navbar End-->
+
+
+<!--Title-->
         <div class="blog-preview">
 
         <h2 class="post-title">Cryptids Throughout the World</h2>
@@ -23,22 +43,28 @@
         <p class="post-preview">
             Canary Islands * America * Austrailia * Indian Ocean * Ireland * Argentina * Canada * Russia * Scotland * Congo * Atlantic Ocean * England * Norway * Pacific Ocean * Sweden * New Zealand * Gobi Desert * Eastern Africa * Philippines * Singapore * Afghanistan * Brazil * Sri Lanka * Indonesia * China * Himalayas *
         </p>
-
-        
         </div>
     </div>
+<!--Title End-->
+
+
+
+
+
+
+
+
 
 <!--Creatures-->
       <div class="blog-preview">
         <img src="images/labynkyrdevil.jpg" alt="labynkyrdevil" class="cryptid">
 
         <div class="blog-text">
-        <p class="date">Labynkyrdevil</p>
 
-        <h2 class="post-title">Labynkyrdevil</h2>
+        <h3 class="post-title">Labynkyr Devil</h3>
 
         <div class="location">
-            <h3>Oymyakonsky Ulus, Sakha Republic, Russia</h3>
+            <h4>Oymyakonsky Ulus, Sakha Republic, Russia</h4>
             <ul class="cryptid-facts">
                 <li>Class: Aquatic/Semi-aquatic</li>
                 <li>Other names: Labynkyrsky Chert</li>
@@ -61,12 +87,11 @@
         <img src="images/gloucesterserpent.jpg" alt="gloucesterserpent" class="cryptid">
 
         <div class="blog-text">
-        <p class="date">Gloucester Serpent</p>
 
-        <h2 class="post-title">Gloucester Serpent</h2>
+        <h3 class="post-title">Gloucester Serpent</h3>
 
         <div class="location">
-            <h3>Gloucester, Massachusetts, United States</h3>
+            <h4>Gloucester, Massachusetts, United States</h4>
             <ul class="cryptid-facts">
                 <li>Class: Aquatic/Semi-aquatic</li>
                 <li>Earliest sighting was in 1638 by John Josselyn off Cape Ann</li>
@@ -89,12 +114,11 @@
         <img src="images/montaukmonster.jpg" alt="montaukmonster" class="cryptid">
 
         <div class="blog-text">
-        <p class="date">Montauk Monster</p>
 
-        <h2 class="post-title">Montauk Monster</h2>
+        <h3 class="post-title">Montauk Monster</h3>
 
         <div class="location">
-            <h3>Montauk, New York, United States</h3>
+            <h4>Montauk, New York, United States</h4>
             <ul class="cryptid-facts">
                 <li>Discovered as a caracass on the beach</li>
                 <li>Believed to have actually been a water-degraded raccoon, a sea turtle, a rodent, dog, or sheep. All these possibilites were denied by William Wise (Director of Stony Brook University's Living Marine Resources Institute)</li>
@@ -117,12 +141,11 @@
         <img src="images/doverdemon.jpg" alt="doverdemon" class="cryptid">
 
         <div class="blog-text">
-        <p class="date">Dover Demon</p>
 
-        <h2 class="post-title">Dover Demon</h2>
+        <h3 class="post-title">Dover Demon</h3>
 
         <div class="location">
-            <h3>Dover, Massachusetts, United States</h3>
+            <h4>Dover, Massachusetts, United States</h4>
             <ul class="cryptid-facts">
                 <li>Sighted in town, scattered within 2 miles</li>
                 <li>Class: Terrestrial</li>
@@ -146,12 +169,11 @@
         <img src="images/bunyip.jpg" alt="bunyip" class="cryptid">
 
         <div class="blog-text">
-        <p class="date">Bunyip</p>
 
-        <h2 class="post-title">Bunyip</h2>
+        <h3 class="post-title">Bunyip</h3>
 
         <div class="location">
-            <h3>Austrailia</h3>
+            <h4>Austrailia</h4>
             <ul class="cryptid-facts">
                 <li>Name meaning "devil" or "evil spirit"</li>
                 <li>Swamps, Billabongs, Creeks, Riverbeds, and Waterholes</li>
@@ -172,52 +194,16 @@
             </div>
         </div>
         </div>
-
-
-    
-   
 <!--Creatures End-->
 
 
-    <div class="page-wrapper">
-            <div class="featured-section">
-                <div class="blog-list">
 
-    <div class="card-section">
-        <div class="card">
-            <img src="images/acrylicpaint.jpg" alt="clock image">
-            <h3>Acrylic</h3>
-            <p>Dries very quickly. Can be used on canvas, paper, wood, and more. Does not require special tools and is not expensive.</p>
-        </div>
 
-        <div class="card">
-            <img src="images/oilpaint.jpg" alt="clock image">
-            <h3>Oil</h3>
-            <p>Dries slowly, but has a deep and rich color. </p>
-        </div>
 
-        <div class="card">
-            <img src="images/watercolorpaint.jpg" alt="clock image">
-            <h3>Watercolor</h3>
-            <p>Transparent appearance, depending on how much water is mixed witht he paint.</p>
-        </div>
 
-        <div class="card">
-            <img src="images/temperapaint.jpg" alt="clock image">
-            <h3>Tempera</h3>
-            <p>Centuries old. Fast-drying and results in a matte finish. Can easily crack.</p>
-        </div>
 
-        <div class="card">
-            <img src="images/digitalpaint.jpg" alt="clock image">
-            <h3>Digital</h3>
-            <p>Digital devices such as an iPad, computer, or graphics tablet. Many software programs exist to get started.</p>
-        </div>
 
-        </div>
-        </div>
-    </div>
-
+<!--Footer-->
     <footer class="footer">
         <div class="social-icons">
             <img src="images/insta.png" alt="Instagram Logo">
@@ -246,7 +232,7 @@
             <li>Resource Library</li>
         </ul>
     </footer>
-
+<!--Footer End-->
 
 
 
