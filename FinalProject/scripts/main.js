@@ -3,9 +3,9 @@ let y = 0;
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d"); // drawing brush
 
-ctx.fillStyle = "rgba(255, 200, 255, 0.8)";
-ctx.shadowColor = "rgba(255, 200, 255, 0.8)";
-ctx.shadowBlur = 20;
+ctx.fillStyle = "rgba(255, 207, 16, 0.8)";
+ctx.shadowColor = "rgba(255, 255, 255, 0.8)";
+ctx.shadowBlur = 30;
 
 
 function draw () {
