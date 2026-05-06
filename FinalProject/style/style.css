@@ -142,14 +142,14 @@ nav ul li a:hover {
     background-position: center;
     background-repeat: no-repeat;
 
-    background-attachment: scroll;
+    background-attachment: fixed;
     position: relative;
     will-change: background-position; 
 }
 
 @media (max-width: 768px) {
     .parallax-banner {
-        background-attachment: scroll;
+        background-attachment: fixed;
         height: 120px;
     }
 
