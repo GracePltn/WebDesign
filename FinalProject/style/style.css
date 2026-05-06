@@ -126,7 +126,7 @@ nav ul li a:hover {
     transform: translateX(-50%);
     text-align: center;
     color: #faf7e8;
-    text-shadow: 0 0 10px #ffffff;
+    text-shadow: 0 0 10px #000;
 }
 
 @media (max-width: 768px) {
@@ -144,7 +144,7 @@ nav ul li a:hover {
 
 
 h1 {
-  padding: 10px;
+  padding: 30px;
   font-size: 60px;
   text-align: center; 
   font-family: "IM Fell DW Pica SC", serif;
@@ -159,7 +159,7 @@ h2 {
   padding: 2px;
   text-align: center;
   font-family: "IM Fell DW Pica SC", serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   margin-left: 400px;
   margin-right: 400px;
@@ -184,8 +184,8 @@ h4 {
     font-family: "IM Fell DW Pica SC", serif;
     font-weight: 300;
     font-style: normal;
-    margin-right: 200px;
-    margin-left: 200px; 
+    margin-right: 100px;
+    margin-left: 100px; 
     color: whitesmoke;
 }
 
