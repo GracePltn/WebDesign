@@ -144,7 +144,7 @@ nav ul li a:hover {
 
     background-attachment: fixed;
     position: relative;
-    will-change: background-position; 
+     
 }
 
 @media (max-width: 768px) {
