@@ -129,6 +129,17 @@ nav ul li a:hover {
     text-shadow: 0 0 10px #000;
 }
 
+.parallax-banner-scroll {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: scroll;
+    position: relative;
+    will-change: background-position; 
+}
+
 @media (max-width: 768px) {
     .parallax-banner {
         background-attachment: scroll;
