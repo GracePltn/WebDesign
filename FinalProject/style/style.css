@@ -106,7 +106,7 @@ nav ul li a:hover {
 
 /*Parallax Banner*/
 .parallax-banner {
-    height: 300px;
+    height: 200px;
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -121,7 +121,7 @@ nav ul li a:hover {
 
 .parallax-banner-content {
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -132,7 +132,7 @@ nav ul li a:hover {
 @media (max-width: 768px) {
     .parallax-banner {
         background-attachment: scroll;
-        height: 320px;
+        height: 120px;
     }
 
     .parallax-banner-content h1 {
@@ -150,8 +150,8 @@ h1 {
   font-family: "IM Fell DW Pica SC", serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 300px; 
-  margin-right: 300px;
+  margin-left: 100px; 
+  margin-right: 100px;
   color: #a2782b;
 }
 
