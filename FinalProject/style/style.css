@@ -121,12 +121,12 @@ nav ul li a:hover {
 
 .parallax-banner-content {
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     color: #faf7e8;
-    text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #ffffff;
 }
 
 @media (max-width: 768px) {
